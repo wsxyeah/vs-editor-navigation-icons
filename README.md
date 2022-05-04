@@ -2,7 +2,7 @@
 
 To show go back/forward navigations on editor toolbar.
 
-![Screenshot](screenshots/navigation_icons.png)
+![Screenshot](images/screenshot.png)
 
 ## Release Notes
 
