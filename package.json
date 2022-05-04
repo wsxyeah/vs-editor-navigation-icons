@@ -2,7 +2,7 @@
 	"name": "editor-navigation-icons",
 	"displayName": "Editor Navigation Icons",
 	"description": "To show go back/forward navigation icons on editor toolbar.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"publisher": "wangshaoxing",
 	"icon": "images/icon.png",
@@ -36,16 +36,16 @@
 		],
 		"menus": {
 			"editor/title": [
-			  {
-				"command": "navigationicons.action.navigateBack",
-				"group": "navigation"
-			  },
-			  {
-				"command": "navigationicons.action.navigateForward",
-				"group": "navigation"
-			  }
+				{
+					"command": "navigationicons.action.navigateBack",
+					"group": "navigation"
+				},
+				{
+					"command": "navigationicons.action.navigateForward",
+					"group": "navigation"
+				}
 			]
-		  }	  
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
