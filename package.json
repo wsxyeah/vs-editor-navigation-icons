@@ -18,8 +18,30 @@
 			{
 				"command": "navigationicons.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "navigationicons.action.navigateBack",
+				"title": "Go Back",
+				"icon": "$(chevron-left)"
+			},
+			{
+				"command": "navigationicons.action.navigateForward",
+				"title": "Go Forward",
+				"icon": "$(chevron-right)"
 			}
-		]
+		],
+		"menus": {
+			"editor/title": [
+			  {
+				"command": "navigationicons.action.navigateBack",
+				"group": "navigation"
+			  },
+			  {
+				"command": "navigationicons.action.navigateForward",
+				"group": "navigation"
+			  }
+			]
+		  }	  
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
