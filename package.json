@@ -10,7 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:navigationicons.helloWorld"
+		"onCommand:navigationicons.helloWorld",
+		"onCommand:navigationicons.action.navigateBack",
+		"onCommand:navigationicons.action.navigateForward"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
