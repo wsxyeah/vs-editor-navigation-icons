@@ -1,8 +1,13 @@
 {
-	"name": "navigationicons",
-	"displayName": "NavigationIcons",
+	"name": "editor-navigation-icons",
+	"displayName": "Editor Navigation Icons",
 	"description": "To show go back/forward navigation icons on editor toolbar.",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"publisher": "wangshaoxing",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wsxyeah/vsc-editor-navigation-icons.git"
+	},
 	"engines": {
 		"vscode": "^1.66.0"
 	},
