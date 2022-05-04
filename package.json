@@ -3,6 +3,7 @@
 	"displayName": "Editor Navigation Icons",
 	"description": "To show go back/forward navigation icons on editor toolbar.",
 	"version": "1.0.0",
+	"license": "MIT",
 	"publisher": "wangshaoxing",
 	"repository": {
 		"type": "git",
