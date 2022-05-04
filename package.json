@@ -10,17 +10,12 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:navigationicons.helloWorld",
 		"onCommand:navigationicons.action.navigateBack",
 		"onCommand:navigationicons.action.navigateForward"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "navigationicons.helloWorld",
-				"title": "Hello World"
-			},
 			{
 				"command": "navigationicons.action.navigateBack",
 				"title": "Go Back",
