@@ -21,6 +21,7 @@
 		"onCommand:navigationicons.action.navigateForward"
 	],
 	"main": "./out/extension.js",
+	"browser": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
