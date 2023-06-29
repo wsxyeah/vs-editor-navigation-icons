@@ -2,7 +2,7 @@
 	"name": "editor-navigation-icons",
 	"displayName": "Editor Navigation Icons",
 	"description": "To show go back/forward navigation icons on editor toolbar.",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"license": "MIT",
 	"publisher": "wangshaoxing",
 	"icon": "images/icon.png",
